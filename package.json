@@ -1,0 +1,25 @@
+{
+  "name": "feature-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "jest": "^23.5.0"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "express": "^4.16.3",
+    "folktale": "^2.3.0",
+    "lodash": "^4.17.10",
+    "mocha": "^5.2.0",
+    "pg": "^7.4.3"
+  }
+}
